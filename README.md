@@ -134,11 +134,7 @@ To setup the demo case perform the following steps.
 
 ## Team
 - Dimitri Muralt
-  - dimitri.muralt@students.fhnw.ch
-  - Skype: dimitri.muralt
-  - FHNW GitLab: @dimitri.muralt
+  - GitHub: [@dimitrimuralt](https://github.com/dimitrimuralt)
 
 - Christoph Wenk
-  - christoph.wenk@students.fhnw.ch
-  - Skype: christoph_wenk
-  - FHNW GitLab: @christoph.wenk
+  - GitHub: [@ChristophWenk](https://github.com/ChristophWenk)
