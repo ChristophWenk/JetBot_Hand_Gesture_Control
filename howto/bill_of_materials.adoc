@@ -1,0 +1,334 @@
+# Bill of materials
+
+This is a custom bill of materials derived from the https://github.com/NVIDIA-AI-IOT/jetbot/wiki/Bill-of-Materials[original on Github].
+The list has been edited to use Swiss vendors whenever possible.
+
+The quantity adheres to the number of pieces that are needed to build the JetBot and not how many need to ordered.
+As an example, 4 M3 screws are needed for the bot which are sold in packages of 100 pieces.
+
+Be aware that depending on where you order from customs duties might be added on top of your order.
+
+## Vendor parts
+
+.Common parts
+|===
+| Part | Quantity | Cost CHF | Vendor CH | Cost USD | Vendor Int | Notes
+
+| Jetson Nano
+| 1
+| 113.20
+| https://www.distrelec.ch/de/nvidia-jetson-nanotm-entwicklerkit-seeed-studio-102110268/p/30143589[Distrelec]
+| 99.00
+| https://www.arrow.com/en/products/945-13450-0000-000/nvidia[Arrow]
+| Alternative CH vendor: https://www.maker-shop.ch/nvidiar-jetson-nanotm-developer-kit[Maker-Shop]
+
+| Micro SD card
+| 1
+| 26.90
+| https://www.digitec.ch/de/s1/product/samsung-evo-microsd-uhs-i-64gb-class-10-speicherkarte-6304644?bra=422&opt=v16-460%3A64000000000&tagIds=77-535[Digitec]
+| 11.99
+| https://www.amazon.com/Samsung-MicroSDXC-Adapter-MB-ME64GA-AM/dp/B06XX29S9Q/?utm_source=GitHub&utm_medium=link[Amazon]
+| 64GB
+
+| Power supply
+| 1
+| 25.00
+| https://www.digitec.ch/de/s1/product/raspberry-pi-offizielles-netzteil-netzteil-elektronikzubehoer-gehaeuse-5704311[Digitec]
+| 14.95
+| https://www.adafruit.com/product/2297[Adafruit]
+| Micro USB, 5V, 2.5A; https://devtalk.nvidia.com/default/topic/1048640/jetson-nano/power-supply-considerations-for-jetson-nano-developer-kit/1[NVIDIA Power Supply Considerations]
+
+| Motor
+| 2
+| 6.90
+| https://www.play-zone.ch/de/dagu-hobby-gearmotor-140-rpm-2-stk.html[Play-zone]
+| 2.95
+| https://www.adafruit.com/product/3777[Adafruit]
+| "TT" form factor
+
+| Motor driver
+| 1
+| 18.50
+| https://www.distrelec.ch/de/schritt-und-dc-motor-featherwing-adafruit-2927/p/30139099[Distrelec]
+| 19.95
+| http://adafru.it/2927[Adafruit]
+|
+
+| Caster ball
+| 1
+| [.line-through]#4.50#
+| [.line-through]#https://www.zigobot.ch/en/mecanique/wheels/ball-caster-with-1-plastic-ball-and-plastic-rollers-detail.html[ZigoBot]#
+| 6.30
+| https://www.bcprecision.com/products/1-inch-delrin-plastic-ball-bearings-g1[BC Precision]
+| 1-inch diameter; https://github.com/NVIDIA-AI-IOT/jetbot/issues/27[Caster Ball Supplier in Europe]
+
+| Battery
+| 1
+| 39.20
+| https://www.digitec.ch/de/s1/product/gp-batteries-powerbank-mp10ma-3a-10000mah-3xusb-typec-130mp10mamidtel-10000mah-powerbank-10580844[Digitec]
+| 14.88
+| https://de.aliexpress.com/item/33003208855.html?spm=a2g0o.productlist.0.0.32c115c8xmLK78&algo_pvid=8cc9f36d-d63f-43cc-ab60-a908d8bbb4f8&algo_expid=8cc9f36d-d63f-43cc-ab60-a908d8bbb4f8-14&btsid=7318a75f-505c-4392-b790-ded9f2a125dc&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_52[Aliexpress]
+| 2x 5V/3A output, 10,000mAh; https://github.com/NVIDIA-AI-IOT/jetbot/issues/16[PowerBank Size]
+
+| USB cable pack
+| 1-2
+| 2 x 9.00
+| https://www.digitec.ch/de/s1/product/lindy-usb-kabel-a-micro-050m-20-usb-kabel-2482752?tagIds=77-532[Digitec]
+| 6.99
+| https://www.amazon.com/dp/B01N337FQF//ref=cm_sw_su_dp[Amazon]
+| Type A to Micro, right angle
+
+| PiOLED display
+| 1
+| 19.90
+| https://www.play-zone.ch/de/catalogsearch/result/?q=PiOLED+display[Play-zone]
+| 14.95
+| http://adafru.it/3527[Adafruit]
+|
+
+| PiOLED header
+| 1
+| 1.50
+| https://www.play-zone.ch/de/bauteile/stift-buchsenleisten/stiftleiste-2-x-40-polig-rastermass-2-54mm-abgewinkelt.html[Play-zone]
+| 5.95
+| http://adafru.it/1541[Adafruit]
+| 2x(3+) right angle male
+|===
+
+
+.Camera
+|===
+| Part | Quantity | Cost CHF | Vendor CH | Cost USD | Vendor Int | Notes
+
+| Camera
+| 1
+| 33.00
+| https://www.digitec.ch/de/s1/product/raspberry-pi-board-v2-kamera-elektronikmodul-5999124?tagIds=1123-773-134[Digitec]
+| 23.90
+| http://adafru.it/3099[Adafruit]
+| Raspberry Pi Camera V2
+
+| Camera lens attachment
+| 1
+| 15.90
+| https://www.pi-shop.ch/camera-module-160-degree-fov[Pi Shop]
+| 12.45
+| https://de.aliexpress.com/item/4000272041451.html?spm=a2g0s.9042311.0.0.2e7e4c4d0MzG4E[AliExpress]
+| 160-degree FoV, 8 MP
+|===
+
+
+.Wifi
+|===
+| Part | Quantity | Cost CHF | Vendor CH | Cost USD | Vendor Int| Notes
+
+| WiFi card
+| 1
+| 30.10
+| https://www.digitec.ch/de/s1/product/intel-ac-8265-m2-a-key-m2-e-key-867mbits-300mbits-netzwerkadapter-6614815[Digitec]
+| 24.89
+| https://www.amazon.com/Intel-Dual-Band-Wireless-Ac-8265/dp/B01MZA1AB2/ref=as_li_ss_tl?&hvadid=312727440900&hvpos=1o2&hvnetw=g&hvrand=3969281190526673723&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032151&hvtargid=pla-572903653196&psc=1&linkCode=sl1&tag=jbstore074-20&linkId=27b193f7b49bbb084d59eca46c5ce9c2&language=en_US[Amazon]
+| M2, Intel Wireless-AC 8265
+
+| WiFi antenna
+| 2
+| 10.30
+| https://www.digitec.ch/de/s1/product/delock-wlan-doppelantenne-wlan-antenne-netzwerk-zubehoer-7007575[Digitec]
+| 2.49
+| https://www.arrow.com/en/products/2042811100/molex[Arrow]
+| U.FL connectors
+|===
+
+.Wheels
+|===
+| Part | Quantity | Cost CHF | Vendor CH | Cost USD | Vendor Int | Notes
+
+| Wheel
+| 2
+| 3.40
+| https://www.play-zone.ch/de/elektronik-kit-zubehoer/robotik/robotik-motors-wheels/adafruit-skinny-wheel-for-tt-dc-gearbox-motors.html[Play-zone]
+| 2.50
+| https://www.adafruit.com/product/3757[Adafruit]
+| 60mm diameter
+
+|===
+
+
+.Assembly Hardware
+|===
+| Part | Quantity | Cost CHF | Vendor CHF | Notes
+
+| Adhesive pads
+| 2
+| 5.20
+| https://www.bauhaus.ch/de/uhu-klebekissen-fix-60117746[Bauhaus]
+|
+
+| M2 screw
+| 20
+| 5.35
+| https://www.bauhaus.ch/de/spax-universalschrauben-60112246[Bauhaus]
+| 8mm long, self tapping
+
+| M3 screw
+| 4
+| 4.65
+| https://www.bauhaus.ch/de/profi-depot-gewindeschrauben-10807911[Bauhaus]
+| 25mm long
+
+| M3 nut
+| 4
+| 1.75
+| https://www.bauhaus.ch/de/profi-depot-sechskantmuttern-10825618[Bauhaus]
+|
+
+| Jumper wires
+| 4
+| 11.30.-
+| https://www.digitec.ch/de/s1/product/play-zone-jumperkabel-verbindungskabel20cm-ff-40-stk-elektronikkabel-stecker-5997795[Digitec]
+| Female-female, ~20cm
+
+| Soldering Iron
+| 1
+| 30.20.-
+| https://www.digitec.ch/de/s1/product/velleman-regelbare-loetstation-loetgeraet-5778964[Digitec]
+|
+
+| Solder
+| 1
+| 17.20-
+| https://www.digitec.ch/de/s1/product/donau-loetzinn-bleifrei-ag38-spule-100-g-loetzinn-loetgeraet-zubehoer-5801328[Digitec]
+|
+
+|===
+
+## Shipping costs
+The shipping costs of vendors that charge them can be found below.
+
+.Shipping costs for each vendor
+|===
+| Vendor | Cost | Shipping time
+
+| Amazon
+| USD 65.95
+| 13-26 days with Amazon Standard Shipping
+
+| Adafruit
+| USD 36.42
+| 2-4 days with DHL Express Worldwide delivery.
+
+| AliExpress
+| USD 2.17
+| 15-22 days with AliExpress Standard Shipping
+
+| Arrow
+| USD 50.99
+| 2-4 days with DHL Express Worldwide delivery.
+
+| BC Precision
+| USD 23.50
+| 8-14 days with US Postal Services.
+
+| Play-Zone
+| CHF 9.00
+| B-Post
+
+| Distrelec
+| CHF 8.00
+| B-Post
+
+| Zigobot
+| CHF 9.00
+| B-Post
+
+| Pi-Shop
+| CHF 6.90
+| B-Post
+
+|===
+
+## Total costs
+.Order variants and total costs
+|===
+| Vendor variant | Total product costs (excluding assembly hardware) | Total shipping costs | Total overall costs | Description
+
+| All Swiss vendors
+| CHF 378.1
+| CHF 32.90
+| CHF 411.00
+| Swiss vendors selected if possible.
+Not all parts same as in example project which might cause problems.
+Easiest to order and cheapest. Fastest shipping.
+Small ecological footprint.
+
+| Example project vendors
+| USD 278.62
+| USD 153.36
+| USD 431.98
+| Same vendors selected as in the original project if possible.
+Least problems to be expected.
+Order very difficult and expensive. Longest shipping.
+Big ecological footprint.
+
+| Adafruit preferred
+| CHF 352.00
+| CHF 92.82
+| CHF 444.82
+| Swiss vendors except for products made by Adafruit and BC Precision.
+Few problems to be expected.
+Order manageable but around 33.- more expensive than cheapest variant.
+Ecological footprint justifiable.
+
+|===
+
+## 3D printed parts
+
+.3D printed parts
+|===
+| Part | Quantity | Cost | Vendor | Notes
+| Chassis
+| 1
+| n/a
+| https://web.fhnw.ch/plattformen/makerstudio/index.php/digitales-atelier/[FHNW Maker Studio]
+| https://github.com/NVIDIA-AI-IOT/jetbot/blob/master/assets/chassis.stl[STL file] for chassis
+
+| Camera Mount
+| 1
+| n/a
+|https://web.fhnw.ch/plattformen/makerstudio/index.php/digitales-atelier/[FHNW Maker Studio]
+| https://github.com/NVIDIA-AI-IOT/jetbot/blob/master/assets/camera_mount.stl[STL file] for Camera mount
+
+| Caster base
+| 1
+| n/a
+|https://web.fhnw.ch/plattformen/makerstudio/index.php/digitales-atelier/[FHNW Maker Studio]
+| https://github.com/NVIDIA-AI-IOT/jetbot/blob/master/assets/caster_base_60mm.stl[STL file] for 60mm wheel
+
+| Caster shroud
+| 1
+| n/a
+|https://web.fhnw.ch/plattformen/makerstudio/index.php/digitales-atelier/[FHNW Maker Studio]
+| https://github.com/NVIDIA-AI-IOT/jetbot/blob/master/assets/caster_shroud_60mm.stl[STL file] for 60mm wheel
+|===
+
+## Additional information
+
+* The Raspberry Pi camera has been picked because the hardware guide uses this as well.
+The assumption is that this will lead to fewer problems when installing the part.
+
+* The M2 Wifi module has been picked because the hardware guide uses this as well.
+The assumption is that this will lead to fewer problems when installing the part.
+
+* The 60mm wheels have been picked because https://github.com/NVIDIA-AI-IOT/jetbot/issues/17[JetBot was originally designed to use these].
+They are also better available from Swiss shops.
+However, it could be that the 65mm wheels perform a little bit better on uneven ground and obstacles.
+In case of any issues 65mm wheels can be ordered from Adafruit.
+
+* Zigobot is the only Swiss vendor with a fitting caster ball.
+However, it cannot be recommended as the usability of the website is considerably below standards
+and the checkout process of the website is dubious.
+
+* Originally a https://www.bauhaus.ch/de/rothenberger-loetkolben-profi-66609889[soldering iron] sold by Bauhaus had been picked.
+This proved to be very unhandy and broke after a short while.
+There is another cheap model included in the bill of materials.
+However, a higher end soldering station is highly recommended for the best results.
