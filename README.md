@@ -19,8 +19,9 @@ If you just want to try out the demonstration case you can skip chapters 5-8 and
 2. [Order JetBot Parts](#order-jetBot-parts)
 3. [Build JetBot](#build-jetBot)
 4. [Setup Software](#setup-software) <br>
-4.1 [Camera Tint Fix](#camera-tint-fix) <br>
-4.2 [RAM Fix](#ram-fix) 
+4.1 [Setup this Repository](#setup-this-repository) <br>
+4.2 [Camera Tint Fix](#camera-tint-fix) <br>
+4.3 [RAM Fix](#ram-fix) 
 5. [Data Preprocessing](#data-preprocessing)
 6. [Setup Detection Training](#setup-detection-training)
 7. [Setup Classification Training](#setup-classification-training)
@@ -61,6 +62,12 @@ Username: jetbot <br>
 Password: jetbot
 
 Then execute the fixes below.
+
+### Setup this Repository
+Some files had to be compressed in order to upload them to GitHub. You will need to unpack them for usage.
+
+* Unpack the archive named *events.out.tfevents.1583264662.7z.001* in howto/2_detection/output/eval_0 into the same folder
+* Unpack the archive named *model_collision_avoidance.7z.001* in howto/5_demo_case/model_alexnet into the same folder
 
 ### Camera Tint Fix
 You will have to install a new camera profile to fix the red tint on the Jetson Nano camera profile.
